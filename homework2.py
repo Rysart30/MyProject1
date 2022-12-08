@@ -24,7 +24,7 @@ def retry(attempts=5, desired_value=None):
 
 def draw_square(n):
     if n == 1:
-        print ('*')
+        print('*')
     if n > 1:
         r = '*' * n
         m = '*' + " " * (n - 2) + '*'
@@ -32,6 +32,3 @@ def draw_square(n):
         for i in range(n - 2):
             print(m)
         print(r)
-
-
-draw_square(10)
