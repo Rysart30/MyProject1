@@ -17,10 +17,6 @@ def grep(pattern):
             yield line
 
 
-str1 = 'qwerty'
-dict1 = {i: str1 for i in str1}
-
-
 def add_word(a: str):
     dict2 = {i: a for i in a}
     return dict2
